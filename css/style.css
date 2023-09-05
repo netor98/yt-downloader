@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    background-image: linear-gradient(
+        to bottom,
+        #037bc0 55%,
+        #fcfdfe 55%,
+        #fcfdfe 100%
+    );
+    color: rgb(219, 225, 231);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.form-elementos {
+    padding: 2rem;
+    margin-top: 5rem;
+    width: 50%;
+    height: 30rem;
+    background-color: #fcfdfe;
+    border-radius: 2rem;
+    box-shadow: 0rem 0.4rem 0.3rem rgb(218, 216, 216);
+    color: black;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#url {
+    flex: 2;
+}
+.separador {
+    width: 100%;
+}
+
+#btn-download {
+    font-weight: 900;
+    padding: 1.5rem;
+    border: none;
+    background-color: #2f94ce;
+    color: #fcfdfe;
+    width: 50%;
+    transition: all 0.3s ease;
+}
+
+#btn-download:hover {
+    cursor: pointer;
+    background-color: #20668f;
+}
+
+.disabled {
+    background-color: #2f94ce56 !important;
+}
